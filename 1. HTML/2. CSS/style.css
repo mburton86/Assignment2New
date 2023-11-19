@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0px;
+    background-color: #f4f4f4; /* Adds a light background color */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #b34c08;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none; /* Ensures no underline */
+    padding: 10px 10px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+
+.nav-item a:hover {
+    background-color: #d3661f;
+
+    border-radius: 10px ;
+    transform: scale(2)
+}
+
+/* Form Styles */
+form {
+    background: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form h3 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width:75%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Prevents padding from increasing width */
+}
+
+button {
+    background-color: #b34c08; /* Matches the navbar color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d3661f; /* Slightly lighter color for hover */
+}
+
+/* Headings */
+h1, h3 {
+    text-align: center;
+}
